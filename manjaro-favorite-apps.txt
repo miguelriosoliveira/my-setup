@@ -1,0 +1,14 @@
+webstorm
+spotify
+sublime text
+vs code
+franz
+chrome
+vivaldi
+dbeaver
+tilix
+bash completion
+asciiquaruim
+sl (steam locomotive)
+node
+npm
