@@ -7,6 +7,7 @@ webstorm
 sublime text  
 vs code  
 dbeaver  
+git
 
 # Personal
 chrome  
