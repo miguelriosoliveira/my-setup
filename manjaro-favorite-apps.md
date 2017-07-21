@@ -6,6 +6,7 @@ npm
 webstorm  
 sublime text  
 vs code  
+atom  
 dbeaver  
 git
 
