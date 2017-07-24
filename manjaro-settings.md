@@ -1,2 +1,2 @@
 # Clock format
-<b>%R</b>%n%d/%m/%Y
+`<b>%R</b>%n%d/%m/%Y`
