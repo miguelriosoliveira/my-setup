@@ -3,3 +3,7 @@
 
 # Make Sublime Text default text editor
 `git config --global core.editor "subl3 -n -w"`
+
+# Beautiful git log for terminal
+Add this to `.bashrc`  
+`export gitk='git log --all --decorate --oneline --graph'`
