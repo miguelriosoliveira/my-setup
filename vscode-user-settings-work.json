@@ -1,0 +1,16 @@
+{
+    // Controls the font size in pixels.
+    "editor.fontSize": 12,
+    // The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+    "editor.tabSize": 2,
+    // Render vertical rulers after a certain number of monospace characters. Use multiple values for multiple rulers. No rulers are drawn if array is empty
+    "editor.rulers": [120],
+
+    // Fit code within this line limit
+    "prettier.printWidth": 120,
+    // If true, will use single instead of double quotes
+    "prettier.singleQuote": true,
+
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme"
+}
