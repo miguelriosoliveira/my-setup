@@ -6,6 +6,9 @@
     // Render vertical rulers after a certain number of monospace characters. Use multiple values for multiple rulers. No rulers are drawn if array is empty
     "editor.rulers": [120],
 
+    // Controls the font size in pixels of the terminal.
+    "terminal.integrated.fontSize": 12,
+
     // Fit code within this line limit
     "prettier.printWidth": 120,
     // If true, will use single instead of double quotes
