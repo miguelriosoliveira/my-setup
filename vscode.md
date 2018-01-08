@@ -1,3 +1,5 @@
+# User Settings (Work)
+```json
 {
     // Controls the font size in pixels.
     "editor.fontSize": 12,
@@ -19,3 +21,4 @@
     // Specifies the icon theme used in the workbench or 'null' to not show any file icons.
     "workbench.iconTheme": "material-icon-theme"
 }
+```
