@@ -1,5 +1,5 @@
 # User Settings (Work)
-```json
+```javascript
 {
     // Controls the font size in pixels.
     "editor.fontSize": 12,
