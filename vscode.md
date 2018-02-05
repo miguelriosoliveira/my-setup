@@ -22,3 +22,39 @@
     "workbench.iconTheme": "material-icon-theme"
 }
 ```
+
+# Keybidings (Work)
+```javascript
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+8",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "importjs.fix",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+]
+```
