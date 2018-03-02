@@ -72,5 +72,13 @@
         "command": "-editor.action.formatDocument",
         "when": "editorTextFocus && !editorReadonly"
     },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.previousEditor"
+    },
 ]
 ```
