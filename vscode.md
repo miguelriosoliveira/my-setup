@@ -47,6 +47,7 @@
 
 # Keybidings (Work)
 ```javascript
+// Place your key bindings in this file to overwrite the defaults
 [
     {
         "key": "alt+8",
@@ -79,6 +80,16 @@
     {
         "key": "alt+left",
         "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
     },
 ]
 ```
