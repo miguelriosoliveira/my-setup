@@ -38,6 +38,17 @@
     */
     // Turns auto fix on save on or off.
     "eslint.autoFixOnSave": true,
+    // An array of language ids which should be validated by ESLint
+    "eslint.validate": [
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "javascriptreact",
+            "autoFix": true
+        }
+    ],
     /*
     WORKBENCH
     */
