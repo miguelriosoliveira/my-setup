@@ -33,28 +33,6 @@
     "prettier.printWidth": 120,
     // If true, will use single instead of double quotes
     "prettier.singleQuote": true,
-    // Controls the printing of trailing commas wherever possible.
-    //  Valid options:
-    //     'none' - No trailing commas
-    //     'es5' - Trailing commas where valid in ES5 (objects, arrays, etc)
-    //     'all' - Trailing commas wherever possible (function arguments)
-    "prettier.trailingComma": "es5",
-    /*
-    ESLINT
-    */
-    // Turns auto fix on save on or off.
-    "eslint.autoFixOnSave": true,
-    // An array of language ids which should be validated by ESLint
-    "eslint.validate": [
-        {
-            "language": "javascript",
-            "autoFix": true
-        },
-        {
-            "language": "javascriptreact",
-            "autoFix": true
-        }
-    ],
     /*
     WORKBENCH
     */
