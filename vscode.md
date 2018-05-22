@@ -6,6 +6,13 @@
     */
     // Controls auto save of dirty files. Accepted values:  'off', 'afterDelay', 'onFocusChange' (editor loses focus), 'onWindowChange' (window loses focus). If set to 'afterDelay', you can configure the delay in 'files.autoSaveDelay'.
     "files.autoSave": "onFocusChange",
+    // Configure glob patterns for excluding files and folders. For example, the files explorer decides which files and folders to show or hide based on this setting.
+    "files.exclude": {
+        "**/.vscode/": true,
+        "**/dist/": true,
+        "**/node_modules/": true,
+        "**/yarn-error.log": true,
+    },
     // When enabled, will trim trailing whitespace when saving a file.
     "files.trimTrailingWhitespace": true,
     /*
@@ -21,6 +28,11 @@
     "editor.tabSize": 2,
     // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
     "editor.formatOnSave": true,
+    /*
+    JAVASCRIPT
+    */
+    // Enable/disable 'experimentalDecorators' for JavaScript files that are not part of a project. Existing jsconfig.json or tsconfig.json files override this setting. Requires TypeScript >=2.3.1.
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
     /*
     TERMINAL
     */
