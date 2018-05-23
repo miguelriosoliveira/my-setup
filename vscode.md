@@ -65,7 +65,6 @@
 
 # Keybidings (Work)
 ```javascript
-// Place your key bindings in this file to overwrite the defaults
 [
     {
         "key": "alt+8",
@@ -108,6 +107,10 @@
         "key": "alt+left",
         "command": "workbench.action.terminal.focusPreviousPane",
         "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+u",
+        "command": "editor.action.transformToUppercase"
     },
 ]
 ```
