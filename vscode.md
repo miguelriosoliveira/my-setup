@@ -66,51 +66,55 @@
 # Keybidings (Work)
 ```javascript
 [
-    {
-        "key": "alt+8",
-        "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "shift+alt+down",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+alt+up",
-        "command": "editor.action.copyLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+i",
-        "command": "editor.action.formatDocument",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+i",
-        "command": "-editor.action.formatDocument",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+right",
-        "command": "workbench.action.nextEditor"
-    },
-    {
-        "key": "alt+left",
-        "command": "workbench.action.previousEditor"
-    },
-    {
-        "key": "alt+right",
-        "command": "workbench.action.terminal.focusNextPane",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+left",
-        "command": "workbench.action.terminal.focusPreviousPane",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+alt+u",
-        "command": "editor.action.transformToUppercase"
-    },
+  {
+    "key": "alt+8",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "-editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+alt+u",
+    "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "shift+alt+l",
+    "command": "editor.action.sortLinesAscending"
+  },
 ]
 ```
