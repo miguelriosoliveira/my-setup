@@ -9,6 +9,7 @@
     // Configure glob patterns for excluding files and folders. For example, the files explorer decides which files and folders to show or hide based on this setting.
     "files.exclude": {
         "**/.vscode/": true,
+        "**/build/": true,
         "**/dist/": true,
         "**/node_modules/": true,
         "**/yarn-error.log": true,
@@ -18,8 +19,6 @@
     /*
     EDITOR
     */
-    // Controls the font size in pixels.
-    "editor.fontSize": 12,
     // Render vertical rulers after a certain number of monospace characters. Use multiple values for multiple rulers. No rulers are drawn if array is empty
     "editor.rulers": [
         120
@@ -33,11 +32,6 @@
     */
     // Enable/disable 'experimentalDecorators' for JavaScript files that are not part of a project. Existing jsconfig.json or tsconfig.json files override this setting. Requires TypeScript >=2.3.1.
     "javascript.implicitProjectConfig.experimentalDecorators": true,
-    /*
-    TERMINAL
-    */
-    // Controls the font size in pixels of the terminal.
-    "terminal.integrated.fontSize": 12,
     /*
     PRETTIER
     */
