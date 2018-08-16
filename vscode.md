@@ -46,7 +46,7 @@
   /* TERMINAL */
 
   // Controls the font size in pixels of the terminal.
-  "terminal.integrated.fontSize": 14
+  "terminal.integrated.fontSize": 12
 }
 
 ```
