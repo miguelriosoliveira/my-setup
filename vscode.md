@@ -46,7 +46,14 @@
   /* TERMINAL */
 
   // Controls the font size in pixels of the terminal.
-  "terminal.integrated.fontSize": 12
+  "terminal.integrated.fontSize": 12,
+  // The path of the shell that the terminal uses on Linux. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).
+  "terminal.integrated.shell.linux": "/bin/bash",
+
+  /* WINDOW */
+
+  // Adjust the zoom level of the window. The original size is 0 and each increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger or smaller. You can also enter decimals to adjust the zoom level with a finer granularity.
+  "window.zoomLevel": -1
 }
 
 ```
