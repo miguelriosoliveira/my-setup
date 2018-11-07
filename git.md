@@ -5,7 +5,7 @@ git rebase -i -s recursive -X theirs <commit sha1 id | branch name>
 
 # Make Sublime Text default text editor
 ```bash
-git config --global core.editor "subl3 -n -w"
+git config --global core.editor "subl -n -w"
 ```
 
 # Beautiful `git log` for terminal
