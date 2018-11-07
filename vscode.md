@@ -13,6 +13,11 @@
     "**/node_modules/": true,
     "**/yarn-error.log": true
   },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
   // When enabled, will trim trailing whitespace when saving a file.
   "files.trimTrailingWhitespace": true,
 
