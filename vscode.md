@@ -39,7 +39,7 @@
   // Controls which editor is shown at startup, if none is restored from the previous session. Select 'none' to start without an editor, 'welcomePage' to open the Welcome page (default), 'newUntitledFile' to open a new untitled file (only opening an empty workspace).
   "workbench.startupEditor": "none",
   // Specifies the icon theme used in the workbench or 'null' to not show any file icons.
-  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.iconTheme": "material-icon-theme",
   // Specifies the color theme used in the workbench.
   "workbench.colorTheme": "Material Theme High Contrast",
   /* TERMINAL */
