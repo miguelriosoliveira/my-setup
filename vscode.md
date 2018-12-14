@@ -109,5 +109,13 @@
     "key": "shift+alt+l",
     "command": "editor.action.sortLinesAscending"
   },
+  {
+    "key": "alt+1",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  }
 ]
 ```
