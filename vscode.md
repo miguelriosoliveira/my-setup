@@ -1,7 +1,10 @@
 # User Settings (Work)
-```javascript
+
+```json
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
   "editor.fontSize": 12,
   "editor.formatOnSave": true,
   "editor.rulers": [120],
@@ -33,7 +36,7 @@
   "prettier.eslintIntegration": true,
 
   "terminal.integrated.fontSize": 12,
-  "terminal.integrated.shell.linux": "/bin/bash",
+  "terminal.integrated.shell.linux": "/bin/zsh",
 
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
@@ -42,11 +45,11 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none"
 }
-
 ```
 
 # Keybidings (Work)
-```javascript
+
+```json
 [
   {
     "key": "alt+8",
