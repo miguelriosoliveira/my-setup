@@ -5,7 +5,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.fontSize": 12,
+  "editor.fontSize": 13,
   "editor.formatOnSave": true,
   "editor.rulers": [120],
   "editor.tabSize": 2,
@@ -33,17 +33,14 @@
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
 
-  "prettier.eslintIntegration": true,
-
-  "terminal.integrated.fontSize": 12,
   "terminal.integrated.shell.linux": "/bin/zsh",
 
   "window.titleBarStyle": "custom",
-  "window.zoomLevel": 0,
 
+  "workbench.colorTheme": "Dracula",
   "workbench.editor.tabSizing": "shrink",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
 }
 ```
 
