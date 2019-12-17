@@ -14,6 +14,7 @@
   "files.exclude": {
     "**/.vscode/": true,
     "**/build/": true,
+    "**/lib/": true,
     "**/dist/": true,
     "**/node_modules/": true,
     "**/.idea/": true,
@@ -33,6 +34,7 @@
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
 
+  "terminal.integrated.rendererType": "dom",
   "terminal.integrated.shell.linux": "/bin/zsh",
 
   "window.titleBarStyle": "custom",
