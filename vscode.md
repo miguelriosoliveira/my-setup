@@ -5,7 +5,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.fontSize": 13,
   "editor.formatOnSave": true,
   "editor.rulers": [120],
   "editor.tabSize": 2,
