@@ -129,6 +129,10 @@
     "key": "ctrl+k ctrl+0",
     "command": "-editor.foldAll",
     "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "editor.action.transformToLowercase"
   }
 ]
 ```
