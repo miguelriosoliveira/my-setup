@@ -229,8 +229,6 @@
 		  "import RoutesConfig from '../../../RoutesConfig';",
 		  "import { getErrorMessage } from '../../../utils/utils';",
 		  "",
-		  "import Search from '../../../components/search/Search';",
-		  "",
 		  "import ${1:ComponentName}Actions from './${1:ComponentName}Actions';",
 		  "import ${1:ComponentName}Store from './${1:ComponentName}Store';",
 		  "",
