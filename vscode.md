@@ -216,6 +216,49 @@
 		  ""
 		],
 		"description": "Store"
+	  },
+	  "Component": {
+		"prefix": "rcfc",
+		"body": [
+		  "import React, { useEffect, useState } from 'react';",
+		  "",
+		  "import connectToStores from 'alt-utils/lib/connectToStores';",
+		  "",
+		  "import alt from '../../../alt';",
+		  "import GlobalActions from '../../../global/GlobalActions';",
+		  "import RoutesConfig from '../../../RoutesConfig';",
+		  "import { getErrorMessage } from '../../../utils/utils';",
+		  "",
+		  "import Search from '../../../components/search/Search';",
+		  "",
+		  "import ${1:ComponentName}Actions from './${1:ComponentName}Actions';",
+		  "import ${1:ComponentName}Store from './${1:ComponentName}Store';",
+		  "",
+		  "function ${1:ComponentName}({ history }) {",
+		  "  const [loading, setLoading] = useState(true);",
+		  "",
+		  "  // Similar to componentDidMount",
+		  "  useEffect(() => {",
+		  "    // getShareholders();",
+		  "    return () => alt.recycle(${1:ComponentName}Store);",
+		  "  }, []);",
+		  "",
+		  "  return (",
+		  "    <div>",
+		  "    </div>",
+		  "  );",
+		  "}",
+		  "",
+		  "export default connectToStores(",
+		  "  {",
+		  "    getStores: () => [${1:ComponentName}],",
+		  "    getPropsFromStores: () => ${1:ComponentName}.getState(),",
+		  "  },",
+		  "  ${1:ComponentName},",
+		  ");",
+		  ""
+		],
+		"description": "Component"
 	  }
 }
 ```
