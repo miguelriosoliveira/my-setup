@@ -202,7 +202,7 @@
     "description": "Store"
   },
   "Component": {
-    "prefix": "",
+    "prefix": "rccomp",
     "body": [
       "import React, { useEffect, useState } from 'react';",
       "",
