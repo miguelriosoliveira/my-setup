@@ -159,6 +159,7 @@
   "Action": {
     "prefix": "rcac",
     "body": [
+      "import alt from '@alt';",
       "import api from '@api';",
       "import sources from '@sources';",
       "",
