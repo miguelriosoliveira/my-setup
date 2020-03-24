@@ -9,7 +9,7 @@
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
-  "editor.rulers": [120],
+  "editor.rulers": [100],
   "editor.tabSize": 2,
 
   "files.autoSave": "onFocusChange",
