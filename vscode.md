@@ -6,20 +6,25 @@
     "source.fixAll": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.rulers": [100],
   "editor.tabSize": 2,
 
+  "emmet.includeLanguages": {"javascript" : "javascriptreact"},
+  "emmet.syntaxProfiles": {"javascript" : "jsx"},
+
+  "eslint.packageManager": "yarn",
+
   "files.autoSave": "onFocusChange",
   "files.exclude": {
+    "**/.idea/": true,
     "**/.vscode/": true,
     "**/build/": true,
-    "**/lib/": true,
     "**/dist/": true,
     "**/node_modules/": true,
-    "**/.idea/": true,
     "**/yarn-error.log": true
   },
   "files.trimTrailingWhitespace": true,
@@ -36,7 +41,6 @@
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
 
-  "terminal.integrated.rendererType": "dom",
   "terminal.integrated.shell.linux": "/bin/zsh",
 
   "window.titleBarStyle": "custom",
