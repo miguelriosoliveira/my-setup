@@ -57,7 +57,7 @@
 ```json
 [
   {
-    "key": "alt+8",
+    "key": "ctrl+'",
     "command": "workbench.action.terminal.toggleTerminal"
   },
   {
