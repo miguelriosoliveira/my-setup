@@ -9,7 +9,9 @@
   "editor.detectIndentation": false,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
+  "editor.fontSize": 13,
   "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
   "editor.rulers": [100],
   "editor.tabSize": 2,
 
@@ -42,12 +44,14 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
 
   "terminal.integrated.shell.linux": "/bin/zsh",
+  "terminal.integrated.fontSize": 12,
 
   "window.titleBarStyle": "custom",
 
   "workbench.colorTheme": "Dracula",
   "workbench.editor.tabSizing": "shrink",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
 }
 ```
