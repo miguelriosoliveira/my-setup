@@ -43,6 +43,13 @@
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
 
+  "search.exclude": {
+    "**/build/": true,
+    "**/dist/": true,
+    "**/lib": true,
+    "**/node_modules": true
+   },
+
   "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.integrated.fontSize": 12,
 
