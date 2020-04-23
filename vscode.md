@@ -56,6 +56,7 @@
   "window.titleBarStyle": "custom",
 
   "workbench.colorTheme": "Dracula",
+  "workbench.editor.labelFormat": "short",
   "workbench.editor.tabSizing": "shrink",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
