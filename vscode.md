@@ -20,6 +20,9 @@
 
   "eslint.packageManager": "yarn",
 
+  "files.associations": {
+    ".zsh_aliases.*": "shellscript"
+  },
   "files.autoSave": "onFocusChange",
   "files.exclude": {
     "**/.idea/": true,
