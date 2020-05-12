@@ -56,6 +56,8 @@
   "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.integrated.fontSize": 12,
 
+  "update.mode": "none",
+
   "window.titleBarStyle": "custom",
 
   "workbench.colorTheme": "Dracula",
