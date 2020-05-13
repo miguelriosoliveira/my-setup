@@ -1,4 +1,6 @@
-# User Settings (Work)
+# Settings
+
+`settings.json`
 
 ```json
 {
@@ -70,7 +72,9 @@
 }
 ```
 
-# Keybidings (Work)
+# Keybidings
+
+`keybidings.json`
 
 ```json
 [
@@ -155,6 +159,10 @@
   {
     "key": "ctrl+alt+l",
     "command": "editor.action.transformToLowercase"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.openWorkspace"
   }
 ]
 ```
