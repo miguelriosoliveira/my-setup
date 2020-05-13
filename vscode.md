@@ -18,6 +18,7 @@
   "emmet.includeLanguages": {"javascript" : "javascriptreact"},
   "emmet.syntaxProfiles": {"javascript" : "jsx"},
 
+  "eslint.enable": true,
   "eslint.packageManager": "yarn",
 
   "files.associations": {
