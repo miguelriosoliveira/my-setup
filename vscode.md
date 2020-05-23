@@ -58,9 +58,9 @@
     // "entities": "class",
     // "schemas": "class",
     // "typeorm": "database",
-    "repositories": "mappings"
+    "repositories": "mappings",
     // "http": "container",
-    // "migrations": "tools",
+    "migrations": "tools"
     // "modules": "components",
     // "implementations": "core",
     // "dtos": "typescript",
