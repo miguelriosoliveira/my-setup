@@ -2,7 +2,7 @@
 
 `settings.json`
 
-```json
+```js
 {
   "editor.codeActionsOnSave": {
     "source.fixAll": true
