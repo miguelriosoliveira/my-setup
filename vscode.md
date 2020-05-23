@@ -17,8 +17,8 @@
   "editor.rulers": [100],
   "editor.tabSize": 2,
 
-  "emmet.includeLanguages": {"javascript" : "javascriptreact"},
-  "emmet.syntaxProfiles": {"javascript" : "jsx"},
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
 
   "eslint.enable": true,
   "eslint.packageManager": "yarn",
@@ -49,12 +49,33 @@
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
 
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune"
+  },
+  "material-icon-theme.folders.associations": {
+    // "infra": "app",
+    // "entities": "class",
+    // "schemas": "class",
+    // "typeorm": "database",
+    "repositories": "mappings"
+    // "http": "container",
+    // "migrations": "tools",
+    // "modules": "components",
+    // "implementations": "core",
+    // "dtos": "typescript",
+    // "fakes": "mock",
+    // "websockets": "pipe",
+    // "protos": "pipe",
+    // "grpc": "pipe"
+  },
+
   "search.exclude": {
     "**/build/": true,
     "**/dist/": true,
     "**/lib": true,
     "**/node_modules": true
-   },
+  },
 
   "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.integrated.fontSize": 12,
@@ -68,8 +89,9 @@
   "workbench.editor.tabSizing": "shrink",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "none",
+  "workbench.startupEditor": "none"
 }
+
 ```
 
 # Keybidings
