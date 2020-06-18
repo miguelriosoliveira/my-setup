@@ -23,18 +23,20 @@
   "eslint.enable": true,
   "eslint.packageManager": "yarn",
 
+  "explorer.compactFolders": false,
+
   "files.associations": {
     ".zsh_aliases.*": "shellscript"
   },
   "files.autoSave": "onFocusChange",
-  "files.exclude": {
-    "**/.idea/": true,
-    "**/.vscode/": true,
-    "**/build/": true,
-    "**/dist/": true,
-    "**/node_modules/": true,
-    "**/yarn-error.log": true
-  },
+  // "files.exclude": {
+  //   "**/.idea/": true,
+  //   "**/.vscode/": true,
+  //   "**/build/": true,
+  //   "**/dist/": true,
+  //   "**/node_modules/": true,
+  //   "**/yarn-error.log": true
+  // },
   "files.trimTrailingWhitespace": true,
   "files.watcherExclude": {
     "**/.git/objects/**": true,
@@ -49,25 +51,26 @@
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
 
+  "material-icon-theme.activeIconPack": "react",
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
     "tsconfig.json": "tune"
   },
   "material-icon-theme.folders.associations": {
-    // "infra": "app",
-    // "entities": "class",
-    // "schemas": "class",
-    // "typeorm": "database",
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
     "repositories": "mappings",
-    // "http": "container",
-    "migrations": "tools"
-    // "modules": "components",
-    // "implementations": "core",
-    // "dtos": "typescript",
-    // "fakes": "mock",
-    // "websockets": "pipe",
-    // "protos": "pipe",
-    // "grpc": "pipe"
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe"
   },
 
   "search.exclude": {
@@ -79,6 +82,8 @@
 
   "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.integrated.fontSize": 12,
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
 
   "update.mode": "none",
 
