@@ -190,6 +190,10 @@
   {
     "key": "ctrl+shift+o",
     "command": "workbench.action.openWorkspace"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "-workbench.action.gotoSymbol"
   }
 ]
 ```
