@@ -12,3 +12,7 @@
   undo = checkout --
   rollback = reset --soft HEAD~1
   pul = pull -p
+[user]
+	name = Miguel Rios
+[pull]
+	rebase = false
