@@ -193,114 +193,20 @@
 # Snippets
 ```js
 {
-  // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
-  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
-  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
-  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
-  // Placeholders with the same ids are connected.
-  // Example:
-  // "Print to console": {
-  // 	"scope": "javascript,typescript",
-  // 	"prefix": "log",
-  // 	"body": [
-  // 		"console.log('$1');",
-  // 		"$2"
-  // 	],
-  // 	"description": "Log output to console"
-  // }
-  "Action": {
-    "prefix": "rcac",
+  "TypeScript functional component": {
+    "prefix": "tsfc",
     "body": [
-      "import alt from '@alt';",
-      "import api from '@api';",
-      "import sources from '@sources';",
+      "import React from 'react';",
       "",
-      "class ${1:ComponentName}Actions {",
-      "  get${1:ComponentName}(name) {",
-      "    return async dispatch => {",
-      "      let response = null;",
+      "const ${1:${TM_FILENAME_BASE}}: React.FC = () => {",
+      "	return <div>${2:body}</div>;",
+      "};",
       "",
-      "      try {",
-      "        response = await api.get(sources.SOURCE_HERE, { params: { name } });",
-      "      } catch (error) {",
-      "        throw error;",
-      "      }",
-      "",
-      "      dispatch(response.data);",
-      "    };",
-      "  }",
-      "}",
-      "",
-      "export default alt.createActions(${1:ComponentName}Actions);",
+      "export default ${1:${TM_FILENAME_BASE}};",
       ""
     ],
-    "description": "Action"
-  },
-  "Store": {
-    "prefix": "rcst",
-    "body": [
-      "import alt from '@alt';",
-      "",
-      "import ${1:ComponentName}Actions from './${1:ComponentName}Actions';",
-      "",
-      "class ${1:ComponentName}Store {",
-      "  constructor() {",
-      "    this.bindActions(${1:ComponentName}Actions);",
-      "  }",
-      "}",
-      "",
-      "export default alt.createStore(${1:ComponentName}Store, '${1:ComponentName}Store');",
-      ""
-    ],
-    "description": "Store"
-  },
-  "Component": {
-    "prefix": "rccomp",
-    "body": [
-      "import React, { useEffect, useState } from 'react';",
-      "",
-      "import connectToStores from 'alt-utils/lib/connectToStores';",
-      "",
-      "import alt from '@alt';",
-      "import GlobalActions from '@global/GlobalActions';",
-      "import { getErrorMessage } from '@utils/utils';",
-      "",
-      "import ${1:ComponentName}Actions from './${1:ComponentName}Actions';",
-      "import ${1:ComponentName}Store from './${1:ComponentName}Store';",
-      "",
-      "function ${1:ComponentName}({ history }) {",
-      "  const [loading, setLoading] = useState(true);",
-      "",
-      "  // Similar to componentDidMount",
-      "  useEffect(() => {",
-      "    get${1:ComponentName}();",
-      "    return () => alt.recycle(${1:ComponentName}Store);",
-      "  }, []);",
-      "",
-      "  async function get${1:ComponentName}() {",
-      "    setLoading(true);",
-      "    try {",
-      "      await ${1:ComponentName}Actions.get${1:ComponentName}();",
-      "    } catch (error) {",
-      "      GlobalActions.showMessage(getErrorMessage(error, '- DEFAULT ERROR MESSAGE HERE -'), 'error');",
-      "    }",
-      "    setLoading(false);",
-      "  }",
-      "",
-      "  return <div></div>;",
-      "}",
-      "",
-      "export default connectToStores(",
-      "  {",
-      "    getStores: () => [${1:ComponentName}Store],",
-      "    getPropsFromStores: () => ${1:ComponentName}Store.getState(),",
-      "  },",
-      "  ${1:ComponentName},",
-      ");",
-      ""
-    ],
-    "description": "Component"
+    "description": "TypeScript functional component"
   }
 }
+
 ```
