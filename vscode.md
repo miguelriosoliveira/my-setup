@@ -4,51 +4,46 @@
 
 ```js
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[less]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "editor.codeActionsOnSave": { "source.fixAll": true },
   "editor.detectIndentation": false,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 13,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
-  "editor.rulers": [
-    100
-  ],
+  "editor.renameOnType": true,
+  "editor.rulers": [100],
   "editor.tabSize": 2,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
+
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+
   "eslint.enable": true,
   "eslint.packageManager": "yarn",
+
   "explorer.compactFolders": false,
+
   "files.associations": {
-    ".zsh_aliases.*": "shellscript"
+    ".zsh_aliases.*": "shellscript",
+    ".prettierrc": "json"
   },
   "files.autoSave": "onFocusChange",
-  // "files.exclude": {
-  //   "**/.idea/": true,
-  //   "**/.vscode/": true,
-  //   "**/build/": true,
-  //   "**/dist/": true,
-  //   "**/node_modules/": true,
-  //   "**/yarn-error.log": true
-  // },
   "files.trimTrailingWhitespace": true,
   "files.watcherExclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
     "**/node_modules/*/**": true
   },
+
   "git.autofetch": true,
+
   "gitlens.views.repositories.files.layout": "list",
+
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
+
   "material-icon-theme.activeIconPack": "react",
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
@@ -70,27 +65,29 @@
     "protos": "pipe",
     "grpc": "pipe"
   },
+
   "search.exclude": {
     "**/build/": true,
     "**/dist/": true,
     "**/lib": true,
     "**/node_modules": true
   },
-  "terminal.integrated.shell.linux": "/bin/zsh",
+
   "terminal.integrated.fontSize": 12,
+  "terminal.integrated.shell.linux": "/bin/zsh",
+
   "typescript.updateImportsOnFileMove.enabled": "always",
+
   "update.mode": "none",
+
   "window.titleBarStyle": "custom",
-  "workbench.colorTheme": "Dracula",
+
+  "workbench.colorTheme": "Omni",
   "workbench.editor.labelFormat": "short",
   "workbench.editor.tabSizing": "shrink",
   "workbench.iconTheme": "material-icon-theme",
-  // "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "none",
-  "editor.renameOnType": true,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  }
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none"
 }
 ```
 
