@@ -13,7 +13,11 @@
 	"editor.rulers": [100],
 	"editor.tabSize": 2,
 
-	"emmet.includeLanguages": { "javascript": "javascriptreact" },
+	"emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "ruby": "html",
+    "*.erb": "html"
+  },
 	"emmet.syntaxProfiles": { "javascript": "jsx" },
 
 	"eslint.enable": true,
