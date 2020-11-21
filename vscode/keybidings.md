@@ -1,3 +1,4 @@
+```json
 [
   {
     "key": "ctrl+'",
@@ -94,3 +95,4 @@
     "command": "-workbench.action.openEditorAtIndex1"
   }
 ]
+```
