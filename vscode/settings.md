@@ -1,92 +1,101 @@
 ```json
 {
-	"[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-	"[less]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-	"editor.codeActionsOnSave": { "source.fixAll": true },
-	"editor.detectIndentation": false,
-	"editor.fontFamily": "Fira Code",
-	"editor.fontLigatures": true,
-	"editor.fontSize": 13,
-	"editor.formatOnSave": true,
-	"editor.minimap.enabled": false,
-	"editor.renameOnType": true,
-	"editor.rulers": [100],
-	"editor.tabSize": 2,
-
-	"emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "ruby": "html",
-    "*.erb": "html"
+  "[markdown]": { "editor.formatOnSave": false },
+  "[yaml]": { "editor.formatOnSave": false },
+  "[ruby]": {
+    "editor.defaultFormatter": "rebornix.ruby",
+    "editor.rulers": [100]
   },
-	"emmet.syntaxProfiles": { "javascript": "jsx" },
 
-	"eslint.enable": true,
-	"eslint.packageManager": "yarn",
+  "diffEditor.ignoreTrimWhitespace": false,
 
-	"explorer.compactFolders": false,
+  "editor.codeActionsOnSave": { "source.fixAll": true },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.renameOnType": true,
+  "editor.rulers": [100],
+  "editor.tabSize": 2,
 
-	"files.associations": {
-		".zsh_aliases.*": "shellscript",
-		".prettierrc": "json"
-	},
-	"files.autoSave": "onFocusChange",
-	"files.trimTrailingWhitespace": true,
-	"files.watcherExclude": {
-		"**/.git/objects/**": true,
-		"**/.git/subtree-cache/**": true,
-		"**/node_modules/*/**": true
-	},
+  "emmet.includeLanguages": { "erb": "html", "javascript": "javascriptreact" },
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
 
-	"git.autofetch": true,
+  "eslint.packageManager": "yarn",
 
-	"gitlens.views.repositories.files.layout": "list",
+  "explorer.compactFolders": false,
 
-	"javascript.implicitProjectConfig.experimentalDecorators": true,
-	"javascript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    ".zsh_aliases.*": "shellscript",
+    ".prettierrc": "json"
+  },
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
 
-	"material-icon-theme.activeIconPack": "react",
-	"material-icon-theme.files.associations": {
-		"ormconfig.json": "database",
-		"tsconfig.json": "tune"
-	},
-	"material-icon-theme.folders.associations": {
-		"infra": "app",
-		"entities": "class",
-		"schemas": "class",
-		"typeorm": "database",
-		"repositories": "mappings",
-		"http": "container",
-		"migrations": "tools",
-		"modules": "components",
-		"implementations": "core",
-		"dtos": "typescript",
-		"fakes": "mock",
-		"websockets": "pipe",
-		"protos": "pipe",
-		"grpc": "pipe"
-	},
+  "git.autofetch": true,
+  "gitlens.views.repositories.files.layout": "list",
 
-	"search.exclude": {
-		"**/build/": true,
-		"**/dist/": true,
-		"**/lib": true,
-		"**/node_modules": true
-	},
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
 
-	"terminal.integrated.fontSize": 12,
-	"terminal.integrated.shell.linux": "/bin/zsh",
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune"
+  },
+  "material-icon-theme.folders.associations": {
+    "dtos": "typescript",
+    "entities": "class",
+    "fakes": "mock",
+    "git": "git",
+    "grpc": "pipe",
+    "http": "container",
+    "implementations": "core",
+    "infra": "app",
+    "migrations": "tools",
+    "modules": "components",
+    "protos": "pipe",
+    "repositories": "mappings",
+    "schemas": "class",
+    "typeorm": "database",
+    "vscode": "vscode",
+    "websockets": "pipe"
+  },
 
-	"typescript.updateImportsOnFileMove.enabled": "always",
+  "ruby.codeCompletion": "rcodetools",
+  "ruby.format": "rubocop",
+  "ruby.intellisense": "rubyLocate",
 
-	"update.mode": "none",
+  "search.exclude": {
+    "**/build/": true,
+    "**/dist/": true,
+    "**/lib": true,
+    "**/node_modules": true
+  },
 
-	"window.titleBarStyle": "custom",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.shell.linux": "/bin/zsh",
 
-	"workbench.colorTheme": "Omni",
-	"workbench.editor.labelFormat": "short",
-	"workbench.editor.tabSizing": "shrink",
-	"workbench.iconTheme": "material-icon-theme",
-	"workbench.sideBar.location": "right",
-	"workbench.startupEditor": "none"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "update.mode": "none",
+
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0,
+
+  "workbench.colorTheme": "Dracula",
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none"
 }
 ```
