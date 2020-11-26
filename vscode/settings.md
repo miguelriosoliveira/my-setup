@@ -30,7 +30,8 @@
 
   "files.associations": {
     ".zsh_aliases.*": "shellscript",
-    ".prettierrc": "json"
+    ".prettierrc": "json",
+    ".env*": "dotenv"
   },
   "files.autoSave": "onFocusChange",
   "files.trimTrailingWhitespace": true,
